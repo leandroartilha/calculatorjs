@@ -1,0 +1,100 @@
+.calculadora{
+    padding: 0;
+    margin-left: 40%;
+    margin-right: 38%;
+    margin-top: 8%;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 1px;
+}
+
+@media screen and (max-width: 500px){
+    .calculadora{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 15%;
+    }
+}
+
+.tabela{
+    margin-left: 0.8em;
+    padding-bottom: 1em;
+}
+
+.resultado{
+    background-color: #414141;
+    color: white;
+    height: 1.3em;
+    width: 82%;
+    margin-left: 0.8em;
+    margin-right: 1em;
+    border-radius: 6px;
+    font-size: 2em;
+    text-align: end;
+    margin-bottom: 0.3em;
+    margin-top: 0em;
+    padding-right: 0.1em;
+    padding-bottom: 0em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.botao{
+    height: 2.6em;
+    width: 2.6em;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    color: white;
+    background-color: #414141;
+    border-radius: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-width: 0px;
+}
+
+.botaos{
+    height: 2.6em;
+    width: 2.6em;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    color: white;
+    background-color: orange;
+    border-radius: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-width: 0px;
+}
+
+.row{
+    height: 5.4em;
+    width: 2.6em;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    color: white;
+    background-color: orange;
+    border-radius: 10%;
+}
+
+.col{
+    height: 2.6em;
+    width: 5.4em;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    color: white;
+    background-color: #414141;
+    border-radius: 10%;
+}
+
+.botao:hover{
+    background-color:#353839;
+    transition: 0.3s;
+    
+}
+
+.titulo{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 0.1em;
+    color: rgb(224, 152, 18);
+}
